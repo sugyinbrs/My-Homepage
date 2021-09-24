@@ -23,3 +23,8 @@
 .pics__mine__item2 {
   width: 500px;
 }
+
+.contact__email {
+  text-decoration: none;
+  color: black;
+}
