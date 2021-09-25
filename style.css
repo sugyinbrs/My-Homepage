@@ -13,6 +13,7 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-light-beige: rgb(238, 232, 212);
 
   /* Font size */
   --font-large: 48px;
@@ -32,6 +33,17 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-grey);
 }
 
 /* Typography */
@@ -63,10 +75,40 @@ p {
   margin: 4px 0;
 }
 
-.logo {
-  width: 50px;
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-light-beige);
+  align-items: center;
+  padding: 16px;
+}
 
-  height: 50px;
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.navbar__logo__img {
+  width: 70px;
+  height: auto;
+}
+
+.navbar__menu {
+  display: flex;
+  padding: 0px 50px;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
+.navbar__menu__item:hover {
+  background-color: var(--color-white);
 }
 
 .index__profile {
