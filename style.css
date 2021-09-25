@@ -51,7 +51,7 @@ h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: (var(--color-black));
-  margin: 16px 0;
+  margin: 0px 0px;
 }
 
 h2 {
@@ -109,6 +109,30 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-white);
+}
+
+#index {
+  background-color: var(--color-light-beige);
+}
+
+#interest {
+  background-color: var(--color-light-beige);
+}
+
+#resolution {
+  background-color: var(--color-light-beige);
+}
+
+#contact {
+  background-color: var(--color-light-beige);
+}
+
+ul {
+  margin: 0px 0px;
+}
+
+p {
+  margin: 0px;
 }
 
 .index__profile {
